@@ -1,0 +1,152 @@
+{
+    "-9": {
+        "type": "Public",
+        "fa": "1- مرچنت کد داخل تنظیمات وارد نشده باشد\n2- آدرس بازگشت وارد نشده باشد\n3- توضیحات وارد نشده باشد و یا از حد مجاز 500 کارکتر بیشتر باشد\n4- مبلغ پرداختی کمتر یا بیشتر از حد مجاز",
+        "en": "Validation error",
+        "code": -9
+    },
+    "-10": {
+        "type": "Public",
+        "fa": "ای پی یا مرچنت كد پذیرنده صحیح نیست.",
+        "en": "Terminal is not valid, please check merchant_id or ip address.",
+        "code": -10
+    },
+    "-11": {
+        "type": "Public",
+        "fa": "مرچنت کد فعال نیست، پذیرنده مشکل خود را به امور مشتریان زرین‌پال ارجاع دهد.",
+        "en": "Terminal is not active, please contact our support team.",
+        "code": -11
+    },
+    "-12": {
+        "type": "Public",
+        "fa": "تلاش بیش از دفعات مجاز در یک بازه زمانی کوتاه به امور مشتریان زرین پال اطلاع دهید.",
+        "en": "To many attempts, please try again later.",
+        "code": -12
+    },
+    "-15": {
+        "type": "Public",
+        "fa": "درگاه پرداخت به حالت تعلیق در آمده است، پذیرنده مشکل خود را به امور مشتریان زرین‌پال ارجاع دهد.",
+        "en": "Terminal user is suspend : contact our support team.",
+        "code": -15
+    },
+    "-16": {
+        "type": "Public",
+        "fa": "سطح تایید پذیرنده پایین تر از سطح نقره ای است.",
+        "en": "Terminal user level is not valid : contact our support team.",
+        "code": -16
+    },
+    "-17": {
+        "type": "Public",
+        "fa": "محدودیت پذیرنده در سطح آبی.",
+        "en": "Terminal user level is not valid : contact our support team.",
+        "code": -17
+    },
+    "100": {
+        "type": "Public",
+        "fa": "عملایت موفق.",
+        "en": "Success.",
+        "code": 100
+    },
+    "-30": {
+        "type": "PaymentRequest",
+        "fa": "پذیرنده اجازه دسترسی به سرویس تسویه اشتراکی شناور را ندارد.",
+        "en": "Terminal do not allow to accept floating wages.",
+        "code": -30
+    },
+    "-31": {
+        "type": "PaymentRequest",
+        "fa": "حساب بانکی تسویه را به پنل اضافه کنید. مقادیر وارد شده برای تسهیم درست نیست. پذیرنده جهت استفاده از خدمات سرویس تسویه اشتراکی شناور، باید حساب بانکی معتبری به پنل کاربری خود اضافه نماید.",
+        "en": "Terminal do not allow to accept wages, please add default bank account in panel.",
+        "code": -31
+    },
+    "-32": {
+        "type": "PaymentRequest",
+        "fa": "مبلغ وارد شده از مبلغ کل تراکنش بیشتر است.",
+        "en": "Wages is not valid, Total wages(floating) has been overload max amount.",
+        "code": -32
+    },
+    "-33": {
+        "type": "PaymentRequest",
+        "fa": "درصدهای وارد شده صحیح نیست.",
+        "en": "Wages floating is not valid.",
+        "code": -33
+    },
+    "-34": {
+        "type": "PaymentRequest",
+        "fa": "مبلغ وارد شده از مبلغ کل تراکنش بیشتر است.",
+        "en": "Wages is not valid, Total wages(fixed) has been overload max amount.",
+        "code": -34
+    },
+    "-35": {
+        "type": "PaymentRequest",
+        "fa": "تعداد افراد دریافت کننده تسهیم بیش از حد مجاز است.",
+        "en": "Wages is not valid, Total wages(floating) has been reached the limit in max parts.",
+        "code": -35
+    },
+    "-36": {
+        "type": "PaymentRequest",
+        "fa": "حداقل مبلغ جهت تسهیم باید ۱۰۰۰۰ ریال باشد.",
+        "en": "The minimum amount for wages(floating) should be 10,000 IRR.",
+        "code": -36
+    },
+    "-37": {
+        "type": "PaymentRequest",
+        "fa": "یک یا چند شماره شبای وارد شده برای تسهیم از سمت بانک غیر فعال است.",
+        "en": "One or more iban entered for wages(floating) from the bank side are inactive.",
+        "code": -37
+    },
+    "-38": {
+        "type": "PaymentRequest",
+        "fa": "خطا٬عدم تعریف صحیح شبا٬لطفا دقایقی دیگر تلاش کنید.",
+        "en": "Wages need to set Iban in shaparak.",
+        "code": -38
+    },
+    "-39": {
+        "type": "PaymentRequest",
+        "fa": "خطایی رخ داده است به امور مشتریان زرین پال اطلاع دهید.",
+        "en": "Wages have a error.",
+        "code": -39
+    },
+    "-40": {
+        "type": "PaymentRequest",
+        "fa": "پارامترهای اضافی نامعتبر است.",
+        "en": "Invalid extra params, expire_in is not valid.",
+        "code": -40
+    },
+    "-50": {
+        "type": "PaymentVerify",
+        "fa": "مبلغ پرداخت شده با مقدار مبلغ ارسالی در متد وریفای متفاوت است.",
+        "en": "Session is not valid, amounts values is not the same.",
+        "code": -50
+    },
+    "-51": {
+        "type": "PaymentVerify",
+        "fa": "پرداخت ناموفق",
+        "en": "Session is not valid, session is not active paid try.",
+        "code": -51
+    },
+    "-52": {
+        "type": "PaymentVerify",
+        "fa": "خطای غیر منتظره‌ای رخ داده است. پذیرنده مشکل خود را به امور مشتریان زرین‌پال ارجاع دهد.",
+        "en": "please contact our support team",
+        "code": -52
+    },
+    "-53": {
+        "type": "PaymentVerify",
+        "fa": "پرداخت متعلق به این مرچنت کد نیست.",
+        "en": "Session is not this merchant id session",
+        "code": -53
+    },
+    "-54": {
+        "type": "PaymentVerify",
+        "fa": "اتوریتی نامعتبر است.",
+        "en": "Invalid authority.",
+        "code": -54
+    },
+    "101": {
+        "type": "PaymentVerify",
+        "fa": "پرداخت موفق بوده است.",
+        "en": "Verified",
+        "code": 101
+    }
+}
