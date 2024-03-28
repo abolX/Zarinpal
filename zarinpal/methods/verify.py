@@ -1,7 +1,7 @@
 from typing import Union
 
 from ..objects import Data
-import _zarinpal
+import zarinpal
 
 
 class Verify:
