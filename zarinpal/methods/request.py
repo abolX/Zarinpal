@@ -1,6 +1,6 @@
 from typing import Union, Optional
 
-import _zarinpal
+import zarinpal
 from ..objects import Data
 
 
